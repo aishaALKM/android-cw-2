@@ -4,6 +4,23 @@ public class HelloWorld{
         S();
      }
 public static void S(){
+    int sum = 0;
+  for ( int A = 1;A<11;A++){
+      if (A == 5){
+          continue;
+      }
+      
+   System.out.println(A);
+   sum = sum + A;
+  }
+  System.out.println(sum);
+   }
+}public class HelloWorld{
+
+     public static void main(String []args){
+        S();
+     }
+public static void S(){
   for ( int A = 1;A<11;A++){
    System.out.println(A);
   }
